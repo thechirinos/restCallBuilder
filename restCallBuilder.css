@@ -1,0 +1,116 @@
+html {
+  /*background-color: #D7DF01;*/
+  background-color: #1F497D;
+}
+
+body {
+  background-color: #FFFFFF;
+  border: 4px solid #000000;
+  float: none;
+  margin: 0 auto 0 auto;
+  width: 1020px;
+}
+
+p, h3, form, button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.explanation {
+  /*float: left;*/
+  /*border: 3px solid #2EFE2E;*/
+  /*margin: 10px;*/
+  padding: 15px;
+}
+
+.explanation  .description{
+  /*border: 1px solid;*/
+  /*float: left;*/
+  display: block;
+  margin-left: 175px;
+  width: 750px;
+}
+
+.explanation .example {
+  /*border: 1px solid;*/
+  display: block;
+  margin-left: 175px;
+  padding-top: 5px;
+}
+
+.explanation .example .label {
+  /*border: 1px dashed;*/
+  /*color: #DF7401;*/
+  font-style: italic;
+  width: 75px;
+}
+
+.explanation .label {
+  /*border: 1px solid #FA58F4;*/
+  /*color: #FA58F4;*/
+  float: left;
+  width: 150px;
+}
+
+.explanation ul {
+  list-style-type: none;
+}
+
+.explanation ul li {
+  /*float: left;*/
+  /*border: 2px solid #DF3A01;*/
+  /*display: block;*/
+  width: 950px;
+}
+
+.input_form {
+  /*border: 3px solid #2EFE2E;*/
+  padding: 15px;
+}
+
+.input_form  form{
+  /*border: 2px solid #DF3A01;*/
+  margin: 0 auto;
+  width: 750px;
+}
+
+.input_form button {
+  border: 1px solid;
+  clear: both;
+  height: 35px;
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.input_form label {
+  text-align: right;
+  /*border: 1px solid #7401DF;*/
+  /*color: #0040FF;*/
+  display: block;
+  float: left;
+  padding-top: 3px;
+  width: 150px;
+}
+
+.input_form input {
+  /*border: 1px solid #7401DF;*/
+  float: left;
+  margin-left: 5px;
+  width: 500px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.spacer {
+  clear: both;
+  height: 1px;
+  width: 1px;
+}
+
+textarea {
+resize:auto;
+}
